@@ -11,8 +11,8 @@ here are some images:<br>
 <img src="/img/scara robot v2 (1).jpg" style="width:20%;">
 
 and some video links: \
-[<img src="https://img.youtube.com/vi/4elHrwVsAtQ/maxresdefault.jpg" width="20%">](https://youtu.be/4elHrwVsAtQ)
-[<img src="https://img.youtube.com/vi/mxgUuI1V4_M/maxresdefault.jpg" width="20%">](https://youtu.be/mxgUuI1V4_M)
+[<img src="https://img.youtube.com/vi/4elHrwVsAtQ/hqdefault.jpg" width="20%">](https://youtu.be/4elHrwVsAtQ)
+[<img src="https://img.youtube.com/vi/mxgUuI1V4_M/hqdefault.jpg" width="20%">](https://youtu.be/mxgUuI1V4_M)
 
 ## version 1
 - 2 servos for movement of the two arms and 1 for up/down of whole plattform
@@ -31,7 +31,7 @@ and some video links: \
 ### issues
 - servo accuracy is quite bad (especially visible when drawing chess board pattern in https://youtu.be/mxgUuI1V4_M)
 
-## kinematics \
+## kinematics
 <img src="/img/scara kinematics.jpg" style="width:20%;">
 <img src="/img/scara range.bmp" style="width:20%;">
 the scara robot discribed here operates in "working mode -+". \
