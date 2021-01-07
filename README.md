@@ -1,10 +1,10 @@
 # scara_plotter
-scara parallel arm robot plotter from ESP8266 with data transfer over wifi
+scara parallel arm robot plotter with ESP8266 and data transfer over wifi
 
 # files
-- send data to ESP includes code to send data over GET and POST method with iPython-Notebook to Arduino to toggle a LED
-- esp8266_plotter_v1 and esp8266_plotter_v2 inclued the arduino code for version 1 and 2
-- send plotter data includes code to send a path to be drawn. first the svg is converted to .hpgl using incscape. afterwards a iPython-Notebook send the coordinates in batches of continuuos lines. between the batches the pen is moved up.
+- "send data to ESP" includes code to send data over GET and POST method with iPython-Notebook to Arduino to toggle a LED
+- "esp8266_plotter_v1" and "esp8266_plotter_v2" includes the arduino code for version 1 and 2 of the plotter (the only difference are the movement calculations)
+- "send plotter data" includes python code to send a path to be drawn. first the svg is converted to .hpgl using incscape. afterwards a iPython-Notebook sends the coordinates in batches of continuous lines. between these batches the pen is moved up.
 
 here are some images:<br>
 <img src="/img/scara robot v1 (1).jpg" style="width:20%;">
