@@ -107,7 +107,7 @@ void loop(){
 }
 
 void trace_line(float next_x, float next_y, float x, float y){
-  //and execute function move2() on every step
+  //interpolate between current and next coordinates (bresensham line algorithm) and execute function move2() on every step
   //the algorithm steps along the long side and correct the shorter side if the acculuator "over" reaches a certain value
  
   //go to initial position and move pen down (before tracing):
@@ -120,9 +120,10 @@ void trace_line(float next_x, float next_y, float x, float y){
   //distances in x & y
   long dx = next_x - x;
   long dy = next_y - y;
-  //directions:
+  //directions (positive/negative):
   int dirx = dx>0 ? 1:-1;
   int diry = dy>0 ? 1:-1;
+ //distances in x & y without sign
   dx = abs(dx);
   dy = abs(dy);
 
@@ -134,7 +135,7 @@ void trace_line(float next_x, float next_y, float x, float y){
       x += dirx; //take steps in x direction
       if(over>=dx){
         over -= dx;
-        y += diry; //correct in y direction
+        y += diry; //add step in y direction
       }
       move2(x,y);
       delay(move_delay);
@@ -147,7 +148,7 @@ void trace_line(float next_x, float next_y, float x, float y){
       y += diry; //take steps in y direction
       if(over>=dy){
         over -= dy;
-        x += dirx; //correct in x direction
+        x += dirx; //add step in x direction
       }
       move2(x,y);
       delay(move_delay);
