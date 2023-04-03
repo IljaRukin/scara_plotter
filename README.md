@@ -35,5 +35,4 @@ and some video links: \
 <img src="/img/scara kinematics.jpg" style="width:20%;">
 <img src="/img/scara range.bmp" style="width:20%;">
 the scara robot discribed here operates in "working mode -+". \
-note: second image is not my own, I unfortunately can't remember the source.
-if you're the owner please let me known.
+note: the bottom image is from: https://www.semanticscholar.org/paper/Development-of-a-Five-Bar-Parallel-Robot-With-Large-Campos-Bourbonnais/4f945b3db879c18c8fdf2b01860d8a9b2f9a274d
